@@ -16,5 +16,9 @@
         "ms-python.python"
       ]
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/anaconda:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
   }
 }
