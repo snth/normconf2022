@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
-    "cpus": 4
+    "cpus": 2
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
@@ -16,5 +16,10 @@
         "ms-python.python"
       ]
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/anaconda:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
   }
 }
