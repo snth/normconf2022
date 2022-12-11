@@ -2,6 +2,9 @@ ipywidgets==7.7.1
 matplotlib
 numpy
 pandas
+prql-python
+pyprql
+rpy2
 torch
 torchvision==0.13.1
 tqdm==4.64.0
